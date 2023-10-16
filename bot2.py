@@ -1,10 +1,13 @@
 import json
 import openai
 import gradio
+import os
+from dotenv import load_dotenv
 # import streamlit
 
 # Ensure API key is securely stored and accessed, not hardcoded in the code
-openai.api_key = "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"
+load_dotenv()
+openai.api_key = os.environ.get("openai_api_key")
 
 # Load data from JSON file
 with open("content.json", "r") as file:
