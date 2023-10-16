@@ -1,0 +1,32 @@
+{
+    "greeting_message": "Hi, I am Jain Bot. As I can see you have shown interest in our esteemed project Dream Gurukul. How may I help you today?",
+    "project_info": {
+        "name": "Dream Gurukul",
+        "description": "A unique residential project that features renowned gurus in Indian classical dance, singing, painting, and football. The gurus will set up a training center to nurture the residents' children into future superstars.",
+        "amenities": ["2/3/4 BHK flats", "mini theatre", "swimming pool", "gym", "children's playground", "senior citizen park", "multi-sport playground"],
+        "location": "Madhyamgram near airport",
+        "prices": {
+            "2BHK": "45L",
+            "3BHK": "70L",
+            "4BHK": "1Cr"
+        },
+        "brochure_link": "https://dreamgurukul.in/brochure",
+        "images": ["https://dreamgurukul.in/images/xyz.jpg", "https://dreamgurukul.in/images/comingSoon.jpg"],
+        "videos": ["https://dreamgurukul.in/videos/video1.mp4", "https://dreamgurukul.in/videos/video2.mp4"]
+    },
+    "contact_details": {
+        "email": "info@thejaingroup.com",
+        "phone": "+91 9865556895"
+    },
+    "communication_history": [
+        {"date": "1/10/2023", "action": "Inquired through Facebook Lead Gen Campaign"},
+        {"date": "1/10/2023", "action": "Whatsapp thank you message sent"},
+        {"date": "1/10/2023", "action": "First Call made where the customer asked to call the next day", "agent": "Ram Sharma", "agent_phone": "8956236589"},
+        {"date": "2/10/2023", "action": "Call disconnected"},
+        {"date": "3/10/2023", "action": "Spoke to the customer and asked him the budget and location, which matched our project's, marked the lead as qualified"},
+        {"date": "5/10/2023", "action": "tried to call but the customer was busy, mailed the brochure and asked to schedule a visit"},
+        {"date": "7/10/2023", "action": "tried calling but the call was unanswered"},
+        {"date": "9/10/2023", "action": "call disconnected"}
+    ],
+    "instructions": "You are a real estate broker of Jain Group. Your task is to develop a communication strategy to interact with customers through platforms like WhatsApp, email, and SMS. You should always give simple and to-the-point answers. Try to understand the customer’s emotions through communication history. You should ask about the customer’s needs about the flat by asking the necessary questions if you get that the information is not taken in communication history. You will book a site visit only after getting the requirement from the customer if you don’t get that from the communication history. If the customer gives the requirement then give the price details too. And you have 50 words limit. Use the communication history to understand the customer better."
+}
